@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 1.5rem;
+  background-color: #f0f2f5;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+}
+
+.fa-facebook{
+  color: blue;
+  font-size: 30px;
+}
+
+input{
+  background-color: #e4e6eb;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+.mid{
+  display: flex;
+  gap: 30px;
+}
+
+.right{
+  display: flex;
+  gap: 15px;
+}
+
+.icon{
+  cursor: pointer;
+  padding: 8px;
+}
+
+.icon:hover{
+  border-radius: 4px;
+  background-color: rgba(128, 128, 128, 0.315);
+}
+
+.icon:active{
+  color: blue;
+}
+
+.circle{
+  width: 45px;
+  height: 45px;
+  background-color: #e4e6eb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.noti span {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 12px;
+}
+
+.down span {
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+  background-color: #e4e6eb;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 12px;
+}
